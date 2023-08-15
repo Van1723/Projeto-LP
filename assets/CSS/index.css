@@ -17,6 +17,10 @@ header {
 .section {
   width: 30%vh;
   height: 250vh;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 img {
   height: 100vh;
@@ -28,6 +32,9 @@ img {
   border-style: solid;
   border-color: black;
   background-color: aquamarine;
+}
+#courses {
+  padding-top: 10px;
 }
 #skills {
   background-color: beige;
