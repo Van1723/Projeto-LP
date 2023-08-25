@@ -9,17 +9,25 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 header {
-  width: 106vh;
-  height: 60vh;
+  margin-top: 80px;
+  background-color: #ab909f;
   border-style: solid;
   border-color: red;
+
+  display: flex;
+  align-items: center;
 }
 #logo.div {
-  text-align: center;
+  display: flex;
+  margin-left: 250px;
 }
 #logo {
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
   width: 106vh;
   height: 60vh;
+  margin-left: 300px;
 }
 .section {
   width: 30%vh;
