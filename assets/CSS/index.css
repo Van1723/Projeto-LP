@@ -10,7 +10,8 @@ h1 {
 }
 header {
   margin-top: 80px;
-  background-color: #ab909f;
+  background-image: linear-gradient(to right, #8c59fc, #846ffc, #40e0d0);
+
   border-style: solid;
   border-color: red;
 
@@ -19,6 +20,7 @@ header {
 }
 #logo.div {
   display: flex;
+  flex-direction: center;
   margin-left: 250px;
 }
 #logo {
