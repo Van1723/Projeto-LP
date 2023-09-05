@@ -38,7 +38,7 @@ header {
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #ab909f;
+  background-image: linear-gradient(to left, #8c59fc, #846ffc, #ab909f);
 }
 img {
   height: 80vh;
