@@ -4,12 +4,11 @@
 }
 h1 {
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 40px;
   color: blue;
   font-family: Arial, Helvetica, sans-serif;
 }
 header {
-  margin-top: 80px;
   background-image: linear-gradient(to right, #8c59fc, #846ffc, #40e0d0);
 
   border-style: solid;
@@ -18,44 +17,42 @@ header {
   display: flex;
   align-items: center;
 }
-#logo.div {
-  display: flex;
-  flex-direction: center;
-  margin-left: 250px;
-}
-#logo {
-  margin-top: 20px;
+
+img#logo {
   display: flex;
   text-align: center;
   width: 106vh;
   height: 60vh;
-  margin-left: 300px;
+
+  border-style: solid black;
 }
 .section {
   width: 30%vh;
   height: 160vh;
   font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
-  padding-left: 20px;
-  padding-right: 20px;
+
   background-image: linear-gradient(to left, #8c59fc, #846ffc, #ab909f);
 }
 img {
   height: 80vh;
   width: auto;
-  margin-bottom: 20px;
 }
-#jpg.profile {
+img#jpg\.profile {
   padding-top: 20px;
   margin-top: 20px;
-  padding-top: 20px;
+  padding-top: 40px;
+  margin-left: 120px;
+  border-style: solid red;
+}
+p#who {
+}
+h4 {
+  margin-left: 43px;
 }
 #who {
-  border-style: solid;
-  border-color: black;
-  background-color: #ab909f;
-  margin-top: 40px;
 }
+
 #courses {
   padding-top: 10px;
 }
