@@ -101,7 +101,18 @@ li {
   border-style: solid;
   border-color: yellow;
 }
-
+img#dev_Light {
+  width: 350px;
+  height: 350px;
+}
+img#dev_Black {
+  width: 350px;
+  height: 350px;
+}
+img#setup {
+  width: 350px;
+  height: 350px;
+}
 footer {
   width: 5%vh;
   height: 30vh;
