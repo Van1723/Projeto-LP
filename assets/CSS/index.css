@@ -4,13 +4,16 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-  margin-top: 10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
   margin-left: 40px;
   color: blue;
   font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
+  margin-top: 20px;
   margin-left: 20px;
+  margin-bottom: 10px;
 }
 header {
   background-image: linear-gradient(to right, #8c59fc, #846ffc, #40e0d0);
@@ -66,6 +69,7 @@ section#skills.section {
   background-color: #ab909f;
   border-style: solid;
   border-color: pink;
+  height: 400px;
 }
 div#allSkills {
   list-style: none;
@@ -86,6 +90,7 @@ div#sectionPrimary {
 }
 p {
   margin-left: 30px;
+  margin-top: 20px;
 }
 div#sectionSecondary {
   list-style: none;
@@ -102,16 +107,22 @@ li {
   border-color: yellow;
 }
 img#dev_Light {
-  width: 350px;
-  height: 350px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  width: 250px;
+  height: 250px;
 }
 img#dev_Black {
-  width: 350px;
-  height: 350px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  width: 250px;
+  height: 250px;
 }
 img#setup {
-  width: 350px;
-  height: 350px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  width: 250px;
+  height: 250px;
 }
 footer {
   width: 5%vh;
