@@ -2,6 +2,10 @@
   padding: 0;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
 }
 h1 {
   margin-top: 40px;
@@ -21,7 +25,6 @@ header {
   border-style: solid;
   border-color: red;
 
-  display: flex;
   align-items: center;
 }
 
@@ -41,29 +44,38 @@ img#logo {
 
   background-image: linear-gradient(to left, #8c59fc, #846ffc, #ab909f);
 }
-img {
-  height: 80vh;
-  width: auto;
+section#who.section {
+  height: 800px;
+  text-align: center;
 }
+
 img#jpg\.profile {
-  padding-top: 20px;
   margin-top: 20px;
   padding-top: 40px;
   margin-left: 120px;
-  border-style: solid red;
+  width: 150px;
+  height: 250px;
 }
 p#who {
   font-weight: 200;
   margin-left: 5px;
+  text-align: justify;
 }
 
 h4 {
   margin-left: 20px;
   font-weight: 200;
+  text-align: left;
 }
 
 #courses {
   padding-top: 10px;
+}
+img#linkedin {
+  width: 100px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 section#skills.section {
   background-color: #ab909f;
@@ -82,20 +94,24 @@ img#skills {
   margin-top: 10px;
   width: 80px;
   height: 80px;
-  margin-left: 30px;
+  margin-left: 80px;
 }
 div#sectionPrimary {
   display: inline;
   margin-top: 20px;
 }
 p {
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 div#sectionSecondary {
   list-style: none;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: 20px;
+  width: 264px;
+  height: 264px;
 }
 li {
   list-style: none;
@@ -105,6 +121,9 @@ li {
   background-color: #ab909f;
   border-style: solid;
   border-color: yellow;
+}
+p#resume {
+  font-weight: lighter;
 }
 img#dev_Light {
   margin-bottom: 10px;
