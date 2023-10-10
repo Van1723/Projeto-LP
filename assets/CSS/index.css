@@ -8,9 +8,9 @@ body {
   display: grid;
 }
 h1 {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 10px;
-  margin-left: 50px;
+  margin-left: 20px;
   color: blue;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -39,7 +39,8 @@ img#logo {
 }
 .section {
   width: auto;
-  height: 160vh;
+  max-width: 1920px;
+  min-width: 480px;
   font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
 
@@ -60,9 +61,8 @@ img#jpg\.profile {
 }
 p#who {
   font-weight: 200;
-  margin-left: 5px;
+  margin-right: 10px;
   text-align: justify;
-  margin-left: 50px;
 }
 
 h4 {
@@ -92,39 +92,60 @@ section#skills.section {
 }
 div#allSkills {
   list-style: none;
+
   display: flex;
   font-size: medium;
   align-items: center;
   font-weight: bold;
 }
-img#skills {
+.skills {
   margin-top: 10px;
-  width: 80px;
-  height: 80px;
-  margin-left: 80px;
+  width: 100px;
+  height: 100px;
+
+  display: flex;
 }
+img#skills_HTML {
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+img#skills_CSS.skills {
+  margin-right: 75px;
+}
+img#skills_JS {
+  margin-bottom: 10px;
+}
+
 div#sectionPrimary {
   display: inline;
-  margin-top: 20px;
+
+  margin-left: 40px;
+  margin-right: 20px;
 }
+
 p {
-  margin-left: 20px;
-  margin-top: 20px;
   font-weight: bold;
   text-align: center;
 }
+div {
+  display: flex;
+}
 div#sectionSecondary {
   list-style: none;
+
   margin-left: 20px;
-  margin-top: 20px;
+
   width: 264px;
   height: 264px;
   display: flex;
 }
+
 li {
   list-style: none;
-  margin-top: 20px;
+
+  margin-right: 20px;
 }
+
 #projects {
   background-color: #ab909f;
   border-style: solid;
@@ -132,6 +153,7 @@ li {
 }
 p#resume {
   font-weight: lighter;
+  margin-bottom: 10px;
 }
 
 div#all_img_Devlinks {
@@ -155,7 +177,7 @@ img#dev_Black {
   display: inline;
 }
 img#setup {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-left: 40px;
   width: 250px;
   height: 250px;
