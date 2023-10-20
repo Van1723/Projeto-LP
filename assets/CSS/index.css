@@ -8,9 +8,9 @@ body {
   display: grid;
 }
 h1 {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 10px;
-  margin-left: 20px;
+  margin-left: 50px;
   color: blue;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,14 +21,37 @@ h2 {
 }
 header {
   background-image: linear-gradient(to right, #8c59fc, #846ffc, #40e0d0);
-
+  display: flex;
+  height: 40vh;
   border-style: solid;
   border-color: red;
+}
+h1#office {
+  width: 450px;
+  height: 50px;
+  margin-top: 20px;
+}
 
+div#resume_office {
+  width: 300px;
+  height: 120px;
+  margin-top: 80px;
+}
+img#Vanessa\.jpg {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: 10px 10px;
+  align-items: center;
+}
+div#Vanessa\.jpg {
+  width: 175px;
+  height: 175px;
+  display: flex;
   align-items: center;
 }
 
-img#logo {
+/* img#logo {
   display: flex;
   text-align: center;
   width: 60vh;
@@ -36,11 +59,8 @@ img#logo {
   margin-left: 40px;
 
   border-style: solid black;
-}
+} */
 .section {
-  width: auto;
-  max-width: 1920px;
-  min-width: 480px;
   font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
 
@@ -93,6 +113,8 @@ section#skills.section {
 div#allSkills {
   list-style: none;
 
+  width: 400px;
+  height: 450px;
   display: flex;
   font-size: medium;
   align-items: center;
@@ -102,7 +124,7 @@ div#allSkills {
   margin-top: 10px;
   width: 100px;
   height: 100px;
-
+  align-items: center;
   display: flex;
 }
 img#skills_HTML {
@@ -119,21 +141,19 @@ img#skills_JS {
 div#sectionPrimary {
   display: inline;
 
-  margin-left: 40px;
   margin-right: 20px;
 }
 
 p {
   font-weight: bold;
-  text-align: center;
+
+  margin-right: 10px;
 }
 div {
   display: flex;
 }
 div#sectionSecondary {
   list-style: none;
-
-  margin-left: 20px;
 
   width: 264px;
   height: 264px;
@@ -142,18 +162,16 @@ div#sectionSecondary {
 
 li {
   list-style: none;
-
-  margin-right: 20px;
 }
 
 #projects {
   background-color: #ab909f;
   border-style: solid;
   border-color: yellow;
+  display: grid;
 }
 p#resume {
   font-weight: lighter;
-  margin-bottom: 10px;
 }
 
 div#all_img_Devlinks {
@@ -177,15 +195,29 @@ img#dev_Black {
   display: inline;
 }
 img#setup {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-left: 40px;
   width: 250px;
   height: 250px;
-  margin-left: 300px;
+  align-items: center;
 }
 footer {
   width: 5%vh;
   height: 30vh;
   border-style: solid;
   border-color: red;
+}
+@media (1920px <= width) {
+  .section {
+    width: 850px;
+  }
+}
+
+@media queries(992px <= width<= 1199px) {
+}
+
+@media queries(481px <= width <= 767px) {
+}
+
+@media queries(480px <= width) {
 }
