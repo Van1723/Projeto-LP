@@ -26,23 +26,20 @@ header {
   border-style: solid;
   border-color: red;
 }
+p#header_Vanessa {
+  margin-left: 50px;
+}
 h1#office {
   width: 450px;
   height: 50px;
   margin-top: 20px;
 }
 
-div#resume_office {
-  width: 300px;
-  height: 120px;
-  margin-top: 80px;
-}
 img#Vanessa\.jpg {
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  margin: 10px 10px;
-  align-items: center;
+  width: 180px;
+  height: 180px;
+  margin: 30px 30px 0px 30px;
 }
 div#Vanessa\.jpg {
   width: 175px;
@@ -50,7 +47,29 @@ div#Vanessa\.jpg {
   display: flex;
   align-items: center;
 }
-
+ol {
+  display: grid;
+}
+li#office {
+  width: 450px;
+  height: 50px;
+  margin-top: 20px;
+}
+li#resume {
+  width: 400px;
+  height: 200px;
+  margin-top: 20px;
+}
+button {
+  width: 200px;
+  height: 50px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 170px;
+  background-color: white;
+}
+div#bt-init {
+}
 /* img#logo {
   display: flex;
   text-align: center;
@@ -202,15 +221,26 @@ img#setup {
   align-items: center;
 }
 footer {
-  width: 5%vh;
-  height: 30vh;
+  height: 40vh;
   border-style: solid;
   border-color: red;
+  background-image: linear-gradient(to right, #8c59fc, #846ffc, #40e0d0);
+  display: flexbox;
+}
+ol#finally {
+  width: 50px;
+  height: 40vh;
+}
+button.fn {
+  width: 125px;
+  height: 35px;
+  margin-top: 20px;
+  margin-left: 550px;
+  align-items: center;
+
+  background-color: white;
 }
 @media (1920px <= width) {
-  .section {
-    width: 850px;
-  }
 }
 
 @media queries(992px <= width<= 1199px) {
