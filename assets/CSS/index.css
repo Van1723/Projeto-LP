@@ -23,8 +23,6 @@ header {
   background-image: linear-gradient(to right, #8c59fc, #846ffc, #40e0d0);
   display: flex;
   height: 40vh;
-  border-style: solid;
-  border-color: red;
 }
 p#header_Vanessa {
   margin-left: 50px;
@@ -67,18 +65,9 @@ button {
   margin-left: 0px;
   margin-top: 170px;
   background-color: white;
+  border-color: black 3px;
 }
-div#bt-init {
-}
-/* img#logo {
-  display: flex;
-  text-align: center;
-  width: 60vh;
-  height: 50vh;
-  margin-left: 40px;
 
-  border-style: solid black;
-} */
 .section {
   font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
@@ -113,9 +102,7 @@ h4 {
 h4#courses {
   margin-top: 10px;
 }
-#courses {
-  /* padding-top: 10px; */
-}
+
 img#linkedin {
   width: 100px;
   height: 50px;
@@ -124,8 +111,7 @@ img#linkedin {
 }
 section#skills.section {
   background-color: #ab909f;
-  border-style: solid;
-  border-color: pink;
+
   height: 400px;
   display: flex;
 }
@@ -185,8 +171,7 @@ li {
 
 #projects {
   background-color: #ab909f;
-  border-style: solid;
-  border-color: yellow;
+
   display: grid;
 }
 p#resume {
@@ -222,8 +207,7 @@ img#setup {
 }
 footer {
   height: 40vh;
-  border-style: solid;
-  border-color: red;
+
   background-image: linear-gradient(to right, #8c59fc, #846ffc, #40e0d0);
   display: flexbox;
 }
