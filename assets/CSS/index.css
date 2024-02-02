@@ -76,7 +76,7 @@ button {
 }
 
 section#who.section {
-  height: 800px;
+  height: 500px;
   text-align: center;
 }
 
@@ -224,14 +224,6 @@ button.fn {
 
   background-color: white;
 }
-@media (1920px <= width) {
-}
-
-@media queries(992px <= width<= 1199px) {
-}
-
-@media queries(481px <= width <= 767px) {
-}
-
-@media queries(480px <= width) {
+button#whats {
+  margin-top: 60px;
 }
